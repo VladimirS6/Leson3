@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+header{
+    background-image: url(../images/clouds.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+}
+.container{
+    max-width:1146px;
+    margin: auto;
+}
+h1{
+   color: #003395;
+   font-size: 54px;
+   font-weight: 500;
+   padding-top: 120px;
+   margin-bottom: 24px;
+}
+.header-text{
+    padding-bottom: 128px;
+    font-size: 18px;
+    color:black;
+    font-weight: bold;
+}
+nav{
+    background-color: #003395;
+    background-size: 100% auto;
+}
+a{
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 400;
+    padding-top: 27px;
+    padding-bottom: 26px;
+    padding-right: 62px;
+    display: inline-block;
+}
+.left{
+    display: inline-block;
+    width: 754px;
+    padding-top: 70px;
+    vertical-align: top;
+}
+.right{
+    display: inline-block;
+    width: 362px; 
+    vertical-align: top;
+    padding-top: 70px;
+    padding-left: 30px;
+}
+.left h2{
+    color: #003395;
+    border-top: 2px solid #003395;
+    border-bottom: 2px solid #003395;
+    font-size: 27px;
+    padding-top: 13px;
+    padding-bottom: 15px;
+}
+.left p{
+    font-size:24px;
+    padding-top: 16px;
+    padding-bottom: 34px;
+}
+.left__href{
+    color: #003395; 
+    padding: 0;
+    font-size: 24px;
+  text-decoration: underline;
+}
+.right div{
+border: 2px solid #33008D;
+margin-bottom: 56px
+}
+.right h2{
+    color: white;
+    font-size: 27px;
+    background-color: #24B0FF;
+    margin: 19px 19px 0 19px;
+    padding: 14px 17px;
+}
+.right p, ul{
+    font-size: 16.2px;
+    margin: 14px 53px 26px 19px;
+    list-style: none;
+    line-height:163.3% ;
+}
+.right ul{
+    margin: 22px 64px 10.6px 19px;
+}
+.right__href{
+    font-size: 16.2px;
+    color: black;
+    padding: 0;
+}
+footer{
+    background: linear-gradient(180deg, #003395 0%, #00205F 100%);
+   padding-top: 45px;
+   padding-bottom: 83px;
+   color: white;
+   font-size: 11.7px;
+   text-align: right;
+}
